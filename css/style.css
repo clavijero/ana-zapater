@@ -633,6 +633,15 @@ p:last-child {
     background-color: rgba(250, 247, 242, 0.04);
   }
 
+  /* Override scrolled-header dark text so links stay visible on the dark overlay */
+  .site-header.scrolled .nav.is-open a {
+    color: #FAF7F2;
+  }
+
+  .site-header.scrolled .hamburger.is-open span {
+    background-color: #FAF7F2;
+  }
+
   .site-header {
     padding: 0.875rem 1.25rem;
   }
